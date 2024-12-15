@@ -196,7 +196,7 @@ namespace ASS02
             //            break; 
 
             //}
-            String Name=Console.ReadLine();
+            //String Name=Console.ReadLine();
             //if (Name == "Mostafa" || Name=="mostafa")
             //    Console.WriteLine("Hello,Mostafa");
             //else if (Name == "Aliaa")
@@ -219,6 +219,25 @@ namespace ASS02
             //}
             //less than 5 not jump 
             #endregion
-            }
+            #region GOTO
+            //Console.Write("Enter Option: ");
+            //3000=>Option01 ,Option 02,Option03
+            //2000=>Option01,Option 02
+            //1000=>option 01
+            //int Option =int.Parse(Console.ReadLine());
+            //switch (Option)
+            //{
+            //    case 3000:
+            //        Console.WriteLine("Option03");
+            //        goto case 2000;
+            //    case 2000:
+            //        Console.WriteLine("Option02");
+            //        goto case 1000;
+            //    case 1000:
+            //        Console.WriteLine("Option01");
+            //        break;
+            //}
+            #endregion
+        }
     }
 }
