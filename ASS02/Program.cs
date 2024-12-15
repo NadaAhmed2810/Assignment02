@@ -136,6 +136,19 @@ namespace ASS02
             //String message = x > 4 ? "x Greater than 4" : "x Less than or equal 4";
             //Console.WriteLine(message);
             #endregion
+
+            #endregion
+            #region operator priority
+            /*
+             1. unary operator [prefix]
+             2. ()
+             3.  / * %
+             4. + -
+             */
+            //int A = 20,B=15,C=10,D=5,res;
+            //res = (A + B) * C / D;// 70
+            //res = A++ * C; //200
+            //res = ++A * C; //210
             #endregion
         }
     }
