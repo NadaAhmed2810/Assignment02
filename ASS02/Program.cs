@@ -150,6 +150,24 @@ namespace ASS02
             //res = A++ * C; //200
             //res = ++A * C; //210
             #endregion
+            #region String formating
+            // Equation = X + Y = Result
+            // Equation = 10 + 5 = 15
+            //int X = 10, Y = 5, Result = 15;
+            //Console.WriteLine(" Equation"+" = "+ X +" + "+ Y  +" = "+Result );//7 object
+            //string immutable data type
+            #region Composite Format
+            //string mes=String.Format("Equation = {0} + {1} = {2}", X, Y, Result);
+            //Console.WriteLine(mes);
+            #endregion
+
+            #region string manipolaition
+            //string interpolation =>$
+            //Console.WriteLine($"Equation = {X} + {Y}= {Result}");
+
+
+            #endregion
+            #endregion
         }
     }
 }
