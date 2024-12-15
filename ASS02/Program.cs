@@ -1,4 +1,6 @@
-﻿using System.Linq.Expressions;
+﻿using System.Diagnostics;
+using System.Linq.Expressions;
+using System.Net.Security;
 
 namespace ASS02
 {
@@ -168,6 +170,55 @@ namespace ASS02
 
             #endregion
             #endregion
-        }
+            #region If Else - switch case
+            //Console.WriteLine("Enter Month Number ");
+            //int monthnum=int.Parse(Console.ReadLine());
+            //if (monthnum == 1) 
+            //    Console.WriteLine("jan");
+            //else if (monthnum == 2)
+            //    Console.WriteLine("feb");
+            //else if (monthnum == 3)
+            //    Console.WriteLine("mar");
+            //else 
+            //    Console.WriteLine("invalid input");
+
+            //switch (monthnum) {
+            //    case 1:
+            //        Console.WriteLine("jan");
+            //             break;
+            //    case 2:
+            //        Console.WriteLine("feb");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("mar");
+            //        break;
+            //    default:Console.WriteLine("Invalid Input");
+            //            break; 
+
+            //}
+            String Name=Console.ReadLine();
+            //if (Name == "Mostafa" || Name=="mostafa")
+            //    Console.WriteLine("Hello,Mostafa");
+            //else if (Name == "Aliaa")
+            //    Console.WriteLine("Hello,Aliaa");
+            //else if (Name == "Ahmed")
+            //    Console.WriteLine("Hello,Ahmed");
+            //switch (Name)
+            //{
+            //    case "Mostafa":
+            //    case"mostafa":
+            //        Console.WriteLine("Hello,Mostafa");
+            //        break;
+            //    case "Aliaa":
+            //        Console.WriteLine("Hello,Aliaa");
+            //        break;
+            //    case "Ahmed":
+            //        Console.WriteLine("Hello,Ahmed");
+            //        break;
+
+            //}
+            //less than 5 not jump 
+            #endregion
+            }
     }
 }
