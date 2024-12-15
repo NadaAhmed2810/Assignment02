@@ -24,6 +24,39 @@
             //Console.WriteLine(Y);
 
             #endregion
+            #region Parse[Convert from string to any data type]
+            //int num=int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Data User ");
+            //string Name;
+            //Console.Write("Enter Name : ");
+            //Name=Console.ReadLine();
+            //int  Age;
+            //Console.Write("Enter Age : ");
+            //Age = int.Parse(Console.ReadLine());
+            //double Salary;
+            //Console.Write("Enter Salary : ");
+            //Salary = double.Parse(Console.ReadLine());
+
+            //Console.Clear();
+            //Console.WriteLine("Name: " + Name + " Age: " + Age + " Salary: "+ Salary);
+
+            #endregion
+            #region convert [convert from any data type to any data type]
+                //Console.WriteLine("Enter Data User ");
+                //string Name;
+                //Console.Write("Enter Name : ");
+                //Name=Console.ReadLine();
+                //int  Age;
+                //Console.Write("Enter Age : ");
+                //Age = Convert.ToInt32(Console.ReadLine());
+                //double Salary;
+                //Console.Write("Enter Salary : ");
+                //Salary = Convert.ToDouble(Console.ReadLine());
+
+                //Console.Clear();
+                //Console.WriteLine("Name: " + Name + " Age: " + Age + " Salary: "+ Salary);
+
+            #endregion
             #endregion
         }
     }
