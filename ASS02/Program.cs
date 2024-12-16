@@ -306,8 +306,7 @@ namespace ASS02
             //Console.WriteLine(message);
             #endregion
             #endregion
-            #region C#09
-            #region Ex01            
+            #region C#09           
             //Employee employee = new Employee();
             //employee.Name = "ali";
             //employee.Age = 20;
@@ -319,7 +318,6 @@ namespace ASS02
             //    {  Age: <22 } => $"{employee.Id} : {employee.Name} : {employee.Age}"
             //};
             //Console.WriteLine(message);
-            #endregion
             #endregion
             #endregion
 
