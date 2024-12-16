@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Linq.Expressions;
 using System.Net.Security;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ASS02
 {
@@ -238,6 +239,90 @@ namespace ASS02
             //        break;
             //}
             #endregion
+            #region Evaluation of switch case
+            #region C#06
+            //Console.WriteLine("Enter Age");
+            //int Age =int.Parse(Console.ReadLine());
+            //switch (Age)
+            //{
+            //    case < 22:
+            //        Console.WriteLine("Age less than 22");
+            //        break;
+            //    case  > 22:
+            //        Console.WriteLine("Age greater  than 22");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Age equal 22");
+            //         break; 
+            //}
+            #endregion
+            #region C#07
+            //object obj=new object();
+            //obj = "Mostafa";
+            //obj = 1;
+            //obj = 'C';
+            //obj = true;
+            //switch (obj)
+            //{
+            //    case int Number when Number >10 && Number <20:
+            //        Console.WriteLine($"{Number} is int ");
+            //        break;
+            //    case string s:
+            //        Console.WriteLine($"{s} is  string");
+            //        break;
+            //    case bool b:
+            //        Console.WriteLine($"{b} is  boolean");
+            //        break;
+            //    case char c:
+            //        Console.WriteLine($"{c} is  char");
+            //        break;
+
+            //}
+            #endregion
+            #region C#08
+            #region Ex01
+            //Console.WriteLine("Enter option");
+            //int x = int.Parse(Console.ReadLine());
+            //string message = x
+            //    switch {
+            //        1 => "option 1",
+            //        2 => "option 2"
+            //       , 3 => "option 3",
+            //        _=> "invalid"
+            //     };
+            //Console.WriteLine(message);
+            #endregion
+            #region Ex02
+            //Employee employee = new Employee();
+            //employee.Name = "ali";
+            //employee.Age = 20;
+            //employee.Id = 10;
+            //string message = employee switch
+            //{
+            //    { Id: 10, Name: "Alaa", Age: 20 } => $"{employee.Id} : {employee.Name} : {employee.Age}",
+            //    { Id: 10, Name: "ali", Age: 20 } => $"{employee.Id} : {employee.Name} : {employee.Age}",
+            //    { Id: 20, Name: "mona", Age: 22 } => $"{employee.Id} : {employee.Name} : {employee.Age}"
+            //};
+            //Console.WriteLine(message);
+            #endregion
+            #endregion
+            #region C#09
+            #region Ex01            
+            //Employee employee = new Employee();
+            //employee.Name = "ali";
+            //employee.Age = 20;
+            //employee.Id = 10;
+            //string message = employee switch
+            //{
+            //    { Age: <20 and <25 } => $"{employee.Id} : {employee.Name} : {employee.Age}",
+            //    { Age: >20 } => $"{employee.Id} : {employee.Name} : {employee.Age}",
+            //    {  Age: <22 } => $"{employee.Id} : {employee.Name} : {employee.Age}"
+            //};
+            //Console.WriteLine(message);
+            #endregion
+            #endregion
+            #endregion
+
         }
     }
 }
