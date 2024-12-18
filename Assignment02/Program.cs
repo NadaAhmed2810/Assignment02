@@ -1,4 +1,7 @@
-﻿namespace Assignment02
+﻿using System.ComponentModel;
+using System.Diagnostics.Metrics;
+
+namespace Assignment02
 {
     internal class Program
     {
@@ -103,6 +106,26 @@
             //power = int.Parse(Console.ReadLine());
             //for (int i = 1; i <= power; i++) res *= Base;
             //Console.WriteLine(res);
+            #endregion
+            #region Q8: Write a program to enter marks of five subjects and calculate total, average and percentage.
+            //Console.WriteLine("Enter five grades :");
+            //double g1, g2, g3, g4, g5, total, avg, percentge;
+            //Console.Write("Enter g1:");
+            //g1 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter g2:");
+            //g2 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter g3:");
+            //g3 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter g4:");
+            //g4 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter g5:");
+            //g5 = double.Parse(Console.ReadLine());
+            //total = g1 + g2 + g3 + g4 + g5;
+            //Console.WriteLine($"Total:{total} ");
+            //avg = total / 5;
+            //Console.WriteLine($"Average:{avg}");
+            //percentge = total * 100 / 500;
+            //Console.WriteLine($"percentge:{percentge}");
             #endregion
         }
     }
