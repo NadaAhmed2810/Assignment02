@@ -158,6 +158,26 @@ namespace Assignment02
             //        break;
             //}
             #endregion
+            #region Q10: Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
+            //Console.WriteLine("Enter the coordinates of the three points:");
+
+ 
+            //Console.Write("Point 1 (x1 y1): ");
+            //string[] p1 = Console.ReadLine().Split(' ');
+            //double x1 = double.Parse(p1[0]);
+            double y1 = double.Parse(p1[1]);
+            //Console.Write("Point 2 (x2 y2): ");
+            //string[] p2 = Console.ReadLine().Split(' ');
+            //double x2 = double.Parse(p2[0]);
+            //double y2 = double.Parse(p2[1]);
+
+            //Console.Write("Point 3 (x3 y3): ");
+            //string[] p3 = Console.ReadLine().Split(' ');
+            //double x3 = double.Parse(p3[0]);
+            //double y3 = double.Parse(p3[1]);
+            //if ((y2 - y1) / (x2 - x1) == (y3 - y2) / (x3 - x2)) Console.WriteLine("The points are collinear and lie on a straight line.");
+            //else Console.WriteLine("The points are not collinear and not lie on a straight line.");
+            #endregion
 
         }
     }
