@@ -2,6 +2,11 @@
 {
     internal class Program
     {
+        static void Getmin (int num1,int num2)
+        {
+            if (num1 > num2) Console.WriteLine($"Min Element: {num2}");
+            else Console.WriteLine($"Min Element: {num1}");
+        }
         static void Main(string[] args)
         {
 
@@ -30,6 +35,31 @@
 
             //}
 
+            #endregion
+            #region Q3:Write a program that takes 3 integers from the user then prints the max element and the min element.
+            //int num1, num2, num3;
+            //Console.WriteLine("Enter 3 number to get the min num and max num ");
+            //Console.Write("enter the first number: ");
+            //num1=int.Parse(Console.ReadLine());
+            //Console.Write("enter the second number: ");
+            //num2 = int.Parse(Console.ReadLine());
+            //Console.Write("enter the third number: ");
+            //num3 = int.Parse(Console.ReadLine());
+            //if (num1>num2 && num1 > num3)
+            //{
+            //    Console.WriteLine($"Max Element: {num1}");
+            //    Getmin(num2, num3);
+            //}
+            //else if(num2>num1 && num2 > num3)
+            //{
+            //    Console.WriteLine($"Max Element: {num2}");
+            //    Getmin(num1, num3);
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"Max Element: {num3}");
+            //    Getmin(num1, num2);
+            //}
             #endregion
         }
     }
