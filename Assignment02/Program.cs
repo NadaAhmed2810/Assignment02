@@ -230,6 +230,17 @@ namespace Assignment02
             ////the update reflect on e1 because they have the same address
 
             #endregion
+            #region Q14
+            //int d;
+            //d = Convert.ToInt32(!(30 < 20));
+            //A value 1 will be assigned to d.
+            //(30<20)=> false !0 =>true =>1
+            #endregion
+            #region Q15
+            //Console.WriteLine(13 / 2 + " " + 13 % 2);
+            // 6 1 
+            // because int /int => int , 13%2 =1
+            #endregion
 
         }
     }
