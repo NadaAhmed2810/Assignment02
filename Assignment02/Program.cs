@@ -85,7 +85,7 @@
             //        Console.WriteLine("Char is Vowel");
             //        break;
             //    default:
-            //        Console.WriteLine("Char is not Vowel");
+            //        Console.WriteLine("Char is Consonant");
             //        break;
             //}
             #endregion
@@ -93,6 +93,16 @@
             //Console.Write("Enter A Number:");
             //int num=int.Parse(Console.ReadLine());
             //for (int i = 1; i <= 12; i++) Console.WriteLine(num * i);
+            #endregion
+            #region Q7: Write a program that takes two integers then prints the power.
+            //Console.WriteLine("To calc power to number");
+            //int Base ,power,res=1;
+            //Console.Write("Enter Base: ");
+            //Base=int.Parse(Console.ReadLine());
+            //Console.Write("Enter power: ");
+            //power = int.Parse(Console.ReadLine());
+            //for (int i = 1; i <= power; i++) res *= Base;
+            //Console.WriteLine(res);
             #endregion
         }
     }
