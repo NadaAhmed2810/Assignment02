@@ -241,6 +241,18 @@ namespace Assignment02
             // 6 1 
             // because int /int => int , 13%2 =1
             #endregion
+            #region Q16
+            //int num = 1, z = 5;
+
+
+            //if (!(num <= 0))
+            //    Console.WriteLine(++num + z++ + " " + ++z);//2+5 z become 6 =>++6 =>7
+            //else
+            //    Console.WriteLine(--num + z-- + " " + --z);//
+
+
+
+            #endregion
 
         }
     }
