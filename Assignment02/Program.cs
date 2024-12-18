@@ -213,6 +213,23 @@ namespace Assignment02
             //y is not change because x,y have different addresses
 
             #endregion
+            #region Q13:Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+            //employee e1= new employee();
+            //e1.Name = "Noura";
+            //e1.salary = 20000;
+            //employee e2= new employee();
+            //e2 = e1;
+            //Console.WriteLine("Before update :");
+            //Console.WriteLine($"Employee1: Name = {e1.Name}, Salary = {e1.salary}");
+            //Console.WriteLine($"Employee2: Name = {e2.Name}, Salary = {e2.salary}");
+
+            //e2.Name = "Nada";
+            //Console.WriteLine("After update :");
+            //Console.WriteLine($"Employee1: Name = {e1.Name}, Salary = {e1.salary}");
+            //Console.WriteLine($"Employee2: Name = {e2.Name}, Salary = {e2.salary}");
+            ////the update reflect on e1 because they have the same address
+
+            #endregion
 
         }
     }
