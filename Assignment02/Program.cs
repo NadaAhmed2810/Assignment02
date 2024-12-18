@@ -204,7 +204,15 @@ namespace Assignment02
             //    }
             //}
             #endregion
+            #region Q12:Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+            //int x = 30;
+            //int y = x;
+            //x += 8;
+            //Console.WriteLine(y);
+            //Console.WriteLine(x);
+            //y is not change because x,y have different addresses
 
+            #endregion
 
         }
     }
