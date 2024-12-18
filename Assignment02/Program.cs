@@ -127,6 +127,38 @@ namespace Assignment02
             //percentge = total * 100 / 500;
             //Console.WriteLine($"percentge:{percentge}");
             #endregion
+            #region Q9: Write a program to input the month number and print the number of days in that month.
+            //Console.Write("Enter number of Month:");
+            //int month = int.Parse(Console.ReadLine());
+            //switch (month)
+            //{
+            //    case 1:
+            //    case 3:
+            //    case 5:
+            //    case 7:
+            //    case 8:
+            //    case 10:
+            //    case 12:
+            //        Console.WriteLine($"Number of month: {month}");
+            //        Console.Write("Days in Month: 31 ");
+            //        break;
+            //    case 4:
+            //    case 6:
+            //    case 9:
+            //    case 11:
+            //        Console.WriteLine($"Number of month: {month}");
+            //        Console.Write("Days in Month: 30 ");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine($"Number of month: {month}");
+            //        Console.Write("Days in Month: 29 ");
+            //        break;
+            //    default:
+            //        Console.WriteLine("invalid input");
+            //        break;
+            //}
+            #endregion
+
         }
     }
 }
