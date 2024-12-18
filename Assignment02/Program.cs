@@ -67,6 +67,28 @@
             //if (num % 2 == 0) Console.WriteLine("number is even: ");
             //else Console.WriteLine("number is odd: ");
             #endregion
+            #region Q5: Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u) then print (vowel) otherwise print (consonant).
+            //Console.Write("Enter a char to check if vowel or not : ");
+            //char c=char.Parse(Console.ReadLine());
+            //switch (c)
+            //{
+            //    case 'a':
+            //    case 'i':
+            //    case 'e':
+            //    case 'o':
+            //    case 'u':
+            //    case 'A':
+            //    case 'E':
+            //    case 'I':
+            //    case 'O':
+            //    case 'U':
+            //        Console.WriteLine("Char is Vowel");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Char is not Vowel");
+            //        break;
+            //}
+            #endregion
         }
     }
 }
