@@ -1,11 +1,12 @@
 ﻿using System.ComponentModel;
 using System.Diagnostics.Metrics;
+using System.Threading.Tasks;
 
 namespace Assignment02
 {
     internal class Program
     {
-        static void Getmin (int num1,int num2)
+        static void Getmin(int num1, int num2)
         {
             if (num1 > num2) Console.WriteLine($"Min Element: {num2}");
             else Console.WriteLine($"Min Element: {num1}");
@@ -161,11 +162,11 @@ namespace Assignment02
             #region Q10: Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
             //Console.WriteLine("Enter the coordinates of the three points:");
 
- 
+
             //Console.Write("Point 1 (x1 y1): ");
             //string[] p1 = Console.ReadLine().Split(' ');
             //double x1 = double.Parse(p1[0]);
-            double y1 = double.Parse(p1[1]);
+            //double y1 = double.Parse(p1[1]);
             //Console.Write("Point 2 (x2 y2): ");
             //string[] p2 = Console.ReadLine().Split(' ');
             //double x2 = double.Parse(p2[0]);
@@ -178,7 +179,35 @@ namespace Assignment02
             //if ((y2 - y1) / (x2 - x1) == (y3 - y2) / (x3 - x2)) Console.WriteLine("The points are collinear and lie on a straight line.");
             //else Console.WriteLine("The points are not collinear and not lie on a straight line.");
             #endregion
+            #region Q11: Within a company, the efficiency of workers is evaluated based on the duration required to complete a specific task.A worker's efficiency level is determined as follows
+            //    Console.Write("Enter the time taken by the worker to complete the task: ");
+            //    double time = double.Parse(Console.ReadLine());
+            //    if (time >= 2 && time <= 3)
+            //    {
+            //        Console.WriteLine("The worker is highly efficient.");
+            //    }
+            //    else if (time > 3 && time <= 4)
+            //    {
+            //        Console.WriteLine("The worker is instructed to increase their speed.");
+            //    }
+            //    else if (time > 4 && time <= 5)
+            //    {
+            //        Console.WriteLine("The worker is provided with training to enhance their speed.");
+            //    }
+            //    else if (time > 5)
+            //    {
+            //        Console.WriteLine("The worker is required to leave the company.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Invalid input.");
+            //    }
+            //}
+            #endregion
+
 
         }
     }
 }
+    
+
